@@ -101,7 +101,7 @@ if [ "$pull_changes" = "y" ]; then
     git pull origin "$(git branch --show-current)"
 fi
 
-# Step 7: Push to remote and create a Pull Request (PR)
+# Step 7: Push to remote 
 echo "Do you want to push your changes to the remote repository? (y/n)"
 read -r push_to_remote
 
